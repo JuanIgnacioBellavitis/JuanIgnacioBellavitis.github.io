@@ -23,7 +23,7 @@ const Contact = () =>{
             refForm.current,
             'TBLrd8aGkwsHKCDFG'
         )
-        .then(
+        .then( 
             () => {
                 alert('Message succesfully sent!')
                 window.location.reload(false)
@@ -71,6 +71,15 @@ const Contact = () =>{
                         </ul>
                     </form>
                 </div>
+            </div>
+            <div className='info-map'>
+                Juan Ignacio Bellavitis,
+                <br/>
+                Argentina
+                <br/>
+                Buenos Aires
+                <br/>
+                <span>juan.bellavitis@gmail.com</span>
             </div>
         </div>
         <Loader type='pacman' />
