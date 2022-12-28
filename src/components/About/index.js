@@ -30,9 +30,6 @@ const About = () =>{
                     Back-end development and with 1 year of experience in Front-End, 
                     looking for a role in an IT company with the opportunity to work 
                     with the latest technologies and grow professionally.</p>
-                    <p>Proficient in an assortment of technologies, including Java, ASP.NET, C#, IIS, and 
-                    Microsoft SQL Server. Knowledgeable in user interface, testing, and debugging 
-                    processes.</p>
                     <p></p>
                 </div>
 
