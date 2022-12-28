@@ -2,6 +2,7 @@ import './index.scss';
 import AnimatedLetters from '../AnimatedLetters';
 import { useState } from 'react';
 import myResume from '../../assets/JuanIgnacioBellavitisResume.pdf';
+import Loader from 'react-loaders';
 
 const Skills = () =>{
     const [letterClass, setLetterClass] = useState('text-animate');
@@ -17,7 +18,8 @@ const Skills = () =>{
                     />
                 </h1>
                 <p>
-                    Intermediate level in Back-End and Beginner in Front-End development. Proficient in an assortment of technologies, including technologies like MySql and Microsoft SQL server for databases, Java, ASP.NET and C# for the Back-end, HTML, CSS, SASS, Javascript, and
+                    Intermediate level in Back-End and Beginner in Front-End development. Proficient in an assortment of technologies, including technologies like MySql and Microsoft 
+                    SQL server for databases, Java, ASP.NET and C# for the Back-end, HTML, CSS, SASS, Javascript, and
                     currently studying React for the Front-End. Knowledgeable in user interface, testing, and debugging 
                     processes.
                 </p>
@@ -30,7 +32,8 @@ const Skills = () =>{
                  
                 </p>
                 </div>
-            </div>  
+            </div>
+            <Loader type='pacman' />
         </>
     );
 }
