@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.29e952f8.css",
-    "main.js": "/static/js/main.da377d62.js",
+    "main.js": "/static/js/main.a117607e.js",
     "static/js/787.5d7eb1d3.chunk.js": "/static/js/787.5d7eb1d3.chunk.js",
     "static/media/JuanIgnacioBellavitisResume.pdf": "/static/media/JuanIgnacioBellavitisResume.34c9fd5827c0f08c984a.pdf",
     "static/media/helvetica-neu.ttf": "/static/media/helvetica-neu.8a19678078a6b21c8057.ttf",
@@ -9,11 +9,11 @@
     "static/media/CoolveticaRg-Regular.woff2": "/static/media/CoolveticaRg-Regular.7d1f3b1dd46ad6557a17.woff2",
     "index.html": "/index.html",
     "main.29e952f8.css.map": "/static/css/main.29e952f8.css.map",
-    "main.da377d62.js.map": "/static/js/main.da377d62.js.map",
+    "main.a117607e.js.map": "/static/js/main.a117607e.js.map",
     "787.5d7eb1d3.chunk.js.map": "/static/js/787.5d7eb1d3.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.29e952f8.css",
-    "static/js/main.da377d62.js"
+    "static/js/main.a117607e.js"
   ]
 }
