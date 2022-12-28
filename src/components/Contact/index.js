@@ -2,8 +2,18 @@ import Loader from 'react-loaders';
 import './index.scss'
 import AnimatedLetters from '../AnimatedLetters'
 import { useEffect, useRef, useState } from 'react';
-import { Form } from 'react-router-dom';
 import emailJs from '@emailjs/browser'
+import { MapContainer, Marker, Popup, TileLayer } from 'react-leaflet';
+import 'leaflet/dist/leaflet.css'
+import L from "leaflet";
+
+const customMarker = new L.icon({
+    iconUrl: "https://unpkg.com/leaflet@1.5.1/dist/images/marker-icon.png",
+    iconSize: [25, 41],
+    iconAnchor: [10, 41],
+    popupAnchor: [2, -40]
+  });
+
 const Contact = () =>{
 
     const refForm = useRef();
@@ -80,6 +90,15 @@ const Contact = () =>{
                 Buenos Aires
                 <br/>
                 <span>juan.bellavitis@gmail.com</span>
+            </div>
+            <div className='map-wrap'>
+                <MapContainer center={[-34.50441102033898, -58.57464736030771]}  zoom={13}  scrollWheelZoom={false}>
+                    <TileLayer url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png" />
+                    <Marker position={[-34.50441102033898, -58.57464736030771]}
+                     icon={customMarker}>
+                        <Popup>I live here :D</Popup>
+                    </Marker>
+                </MapContainer>
             </div>
         </div>
         <Loader type='pacman' />
