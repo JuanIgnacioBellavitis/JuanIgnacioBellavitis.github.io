@@ -8,7 +8,7 @@ const Home = () =>{
     // as letters can only have one animateion and specific 
     // moment in time after initial loading is done.
     const [letterClass, setLetterClass] = useState('text-animate');
-    const nameArray = ['j', 'u', 'a', 'n', ' ', 'I', 'g', 'n', 'a', 'c', 'i', 'o', ' ', 'b', 'e', 'l', 'l', 'a', 'v', 'i', 't', 'i', 's']
+    const nameArray = ['j', 'u', 'a', 'n', ' ', 'B', 'e', 'l', 'l', 'a', 'v', 'i', 't', 'i', 's']
     const jobArray = ['w', 'e', 'b', ' ' , 'd', 'e', 'v', 'e', 'l', 'o', 'p', 'e', 'r', '.']
 
      useEffect(() => {        
